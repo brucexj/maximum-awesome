@@ -127,4 +127,4 @@ if filereadable(expand("~/.vimrc.local"))
   " noremap! jj <ESC>
   source ~/.vimrc.local
 endif
-let g:move_key_modifier = 'C'
+let g:move_key_modifier = 'A'
