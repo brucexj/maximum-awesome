@@ -128,3 +128,10 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 let g:move_key_modifier = 'A'
+
+autocmd FileType typescript setlocal completeopt+=menu,preview
+
+
+imap ss <esc>a<Plug>snipMateNextOrTrigger
+smap ss <Plug>snipMateNextOrTrigger
+
